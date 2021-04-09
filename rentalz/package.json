@@ -7,8 +7,10 @@
     "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --respawn src/server.ts"
   },
   "dependencies": {
+    "@types/multer": "^1.4.5",
     "@types/uuid": "^8.3.0",
     "express": "^4.17.1",
+    "multer": "^1.4.2",
     "ts-node-dev": "^1.1.6",
     "uuid": "^8.3.2"
   },
