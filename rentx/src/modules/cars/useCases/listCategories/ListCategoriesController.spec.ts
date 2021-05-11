@@ -52,6 +52,6 @@ describe("Create Category Controller", () => {
     expect(response.status).toBe(200);
     expect(response.body.length).toBe(1);
     expect(response.body[0]).toHaveProperty("id");
-    expect(response.body[0].name).toEqual("Category Supertest");
+    expect(response.body[0].name).toEqual("Category supertest");
   });
 });
