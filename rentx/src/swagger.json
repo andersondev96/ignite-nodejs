@@ -186,7 +186,7 @@
         }
       }
     },
-    "cars/images/{id}": {
+    "/cars/images/{id}": {
       "post": {
         "tags": ["Cars"],
         "summary": "Upload images",
