@@ -69,10 +69,10 @@ describe("Create rental", () => {
       user_id: "12345",
     });
 
-    expect(
+    await expect(
       createRentalUseCase.execute({
         user_id: "321",
-        car_id: "test",
+        car_id: "1111",
         expected_return_date: dayAdd24Hours,
       })
     ).rejects.toEqual(new AppError("Car is unavailable"));
