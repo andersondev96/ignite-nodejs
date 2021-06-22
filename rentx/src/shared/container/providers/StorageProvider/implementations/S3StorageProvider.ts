@@ -5,7 +5,7 @@ import { resolve } from "path";
 
 import upload from "@config/upload";
 
-import { IStorageProvider } from "./StorageProvider/IStorageProvider";
+import { IStorageProvider } from "../IStorageProvider";
 
 class S3StorageProvider implements IStorageProvider {
   private client: S3;
