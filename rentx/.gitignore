@@ -1,8 +1,0 @@
-node_modules/
-.vscode
-tmp/*
-covarage
-.env
-!tmp/.gitkeep
-dist
-ormconfig.json
