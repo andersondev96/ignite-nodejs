@@ -5,13 +5,14 @@
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-executar-o-projeto">Como executar o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-autor>Autor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
+  <a href="#-autor">Autor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/github/languages/count/AndersonUfop/api-rentx">
-  <img src="https://img.shields.io/github/languages/code-size/AndersonUfop/api-rentx"
+  <img src="https://img.shields.io/github/languages/code-size/AndersonUfop/api-rentx">
+  <img src="https://img.shields.io/github/license/AndersonUfop/api-rentx?color=blue">
 </p>
 
 
@@ -134,6 +135,12 @@ Para que o projeto rode em sua máquina, siga as seguintes instruções:
 - Faça commit de suas mudanças: ```git commit -m 'feat: My new feature'```;
 - Envie para o seu branch: ```git push origin my-feature```.
 - Após a mesclagem de sua solicitação pull, você pode excluir seu branch.
+  
+## :memo: Licença
+
+Este projeto está sob a licença do MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+---
 
 ## 🦸 Autor
 <img style="border-radius: 50%" src="https://instagram.fplu14-1.fna.fbcdn.net/v/t51.2885-19/s150x150/210580897_521661042378107_4696043254012376827_n.jpg?_nc_ht=instagram.fplu14-1.fna.fbcdn.net&_nc_ohc=CzFuGXZLNF4AX9QB2aK&tn=HVBsahGFRydsbaPl&edm=ABfd0MgBAAAA&ccb=7-4&oh=b664f35c449844f907d12d4eaf5043f6&oe=60EFCAF7&_nc_sid=7bff83" width="100px;"> <br />
