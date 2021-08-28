@@ -138,7 +138,7 @@ Para que o projeto rode em sua máquina, siga as seguintes instruções:
   
 ## :memo: Licença
 
-Este projeto está sob a licença do MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+Este projeto está sob a licença do MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
