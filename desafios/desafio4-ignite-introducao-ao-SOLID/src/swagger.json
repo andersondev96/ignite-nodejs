@@ -1,0 +1,76 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Challange Documentation",
+    "description": "Rocketseat Ignite Node JS challenge challenge 4 documentation",
+    "version": "1.0.0",
+    "contact": {
+      "email": "andersonfferreira13@hotmail.com"
+    }
+  },
+  "paths": {
+    "/users": {
+        "description": "Gerenciamento de usuários",
+      "post": {
+        "tags": ["Users"],
+        "sumary": "Criar um usuário",
+        "description": "Cria um novo usuário",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "description": "string"
+                }
+              },
+              "example": {
+                "name": "Joao",
+                "email": "joao@example.com"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Usuário criado"
+          },
+          "404": {
+            "description": "Este usuário já existe"
+          }
+        }
+      },
+      "get": {
+        "tags": ["Users"],
+        "sumary": "Listagem de usuários",
+        "description": "Lista os usuários"
+      },
+      "responses": {
+        "200": {
+          "description": "Sucesso",
+          "content": {
+            "application/json": {
+              "schema": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+        
+    }
+      
+  }
+}
