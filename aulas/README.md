@@ -5,7 +5,7 @@
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-executar-o-projeto">Como executar o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#memo-licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-autor">Autor</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
@@ -23,62 +23,63 @@
 Projeto desenvolvido na trilha Node JS do Ignite da Rocketseat.
 Este projeto consiste em desenvolver o backend para uma aplicação de locadora de veículos, possuindo as seguintes funcionalidades:
 
-### Cadstro de carro
+### Cadastro de carro
 
 **Requisitos funcionais (RF)**
-- Deve ser possível cadastrar um novo carro.
+- [x] Deve ser possível cadastrar um novo carro.
 
 **Regras de negócio (RN)**
-- Não deve ser possível cadastrar um carro com uma placa já existente.
-- Não deve ser possível alterar a placa de um carro já cadastrado.
-- O carro deve ser cadastrado, por padrão com disponibilidade.
-- O usuário responsável pelo cadastro deve ser um usuário administrador.
+- [x] Não deve ser possível cadastrar um carro com uma placa já existente.
+- [x] Não deve ser possível alterar a placa de um carro já cadastrado.
+- [x] O carro deve ser cadastrado, por padrão com disponibilidade.
+- [x] O usuário responsável pelo cadastro deve ser um usuário administrador.
 
 ### Listagem de carros
 
 **Requisitos funcionais (RF)**
-- Deve ser possível listar todos os carros disponíveis;
-- Deve ser possível listar todas as categoriais;
-- Deve ser possível listar os carros pelo nome da categoria;
-- Deve ser possível listar os carros pelo nome da marca;
-- Deve ser possível listar os carros pelo nome do carro;
+- [x] Deve ser possível listar todos os carros disponíveis;
+- [x] Deve ser possível listar todas as categoriais;
+- [x] Deve ser possível listar os carros pelo nome da categoria;
+- [x] Deve ser possível listar os carros pelo nome da marca;
+- [x] Deve ser possível listar os carros pelo nome do carro;
 
 **Regras de negócio (RN)**
-- O usuário não precisa estar logado no sistema.
+- [x] O usuário não precisa estar logado no sistema.
 
 ### Cadastro de especificação no carro
+
 **Requisitos funcionais (RF)**
-- Deve ser possível cadastrar uma especificação por carro.
-- Deve ser possível listar todas as especificações.
-- Deve ser possível listar todos os carros.
+- [x] Deve ser possível cadastrar uma especificação por carro.
+- [x] Deve ser possível listar todas as especificações.
+- [x] Deve ser possível listar todos os carros.
 
 **Regras de negócio**
-- Não deve ser possível uma especificação para um carro não cadastrado.
-- Não deve ser possível cadastrar uma especificação já existente para o mesmo carro.
-- O usuário responsável pelo cadastro deve ser um usuário administrador.
+- [x] Não deve ser possível uma especificação para um carro não cadastrado.
+- [x] Não deve ser possível cadastrar uma especificação já existente para o mesmo carro.
+- [x] O usuário responsável pelo cadastro deve ser um usuário administrador.
 
 ### Cadastro de imagens do carro
 
 **Requisitos funcionais (RF)**
-- Deve ser possível cadastrar a imagem do carro.
-- Deve ser possível listar todos os carros.
+- [x] Deve ser possível cadastrar a imagem do carro.
+- [x] Deve ser possível listar todos os carros.
 
 **Requisitos não funcionais (RNF)**
-- Utilizar o multer para upload dos arquivos
+- [x] Utilizar o multer para upload dos arquivos
 
 **Regras de negócio (RN)**
-- O usuário deve poder cadastrar mais de uma imagem para o mesmo carro·
-- O usuário responsável pelo cadastro deve ser um usuário administrador.
+- [x] O usuário deve poder cadastrar mais de uma imagem para o mesmo carro·
+- [x] O usuário responsável pelo cadastro deve ser um usuário administrador.
 
 ### Aluguel de carro
 
 **Requisitos funcionais (RF)**
-- Deve ser possível cadastrar um aluguel.
+- [x] Deve ser possível cadastrar um aluguel.
 
 **Regras de Negócio (RN)**
-- O aluguel deve ter duração mínima de 24 horas.
-- Não deve ser possível cadastrar um novo aluguel, caso já exista um aberto para o mesmo usuário.
-- Não deve ser possível cadastrar um novo aluguel, caso já exista um aberto para o mesmo carro.
+- [x] O aluguel deve ter duração mínima de 24 horas.
+- [x] Não deve ser possível cadastrar um novo aluguel, caso já exista um aberto para o mesmo usuário.
+- [x] Não deve ser possível cadastrar um novo aluguel, caso já exista um aberto para o mesmo carro.
 
 ## :rocket: Tecnologias
 A aplicação foi desenvolvida usando as seguintes tecnologias e ferramentas:
@@ -117,10 +118,12 @@ Para que o projeto rode em sua máquina, siga as seguintes instruções:
 4- No arquivo ormconfig.json, altere o username e password, para os que estão configurados no seu docker.
 
 5- Abra o DBeaver e crie uma nova conexão, inserindo os dados:
-  - HOST: localhost / 192.168.99.100
-  - DATABASE: Postgres
-  - USERNAME: Postgres
+```
+  - HOST: localhost ou 192.168.99.100
+  - DATABASE: postgres
+  - USERNAME: postgres
   - PASSWORD: docker
+```
 
 6- Ainda no DBeaver crie um banco de dados com o nome *rentx*.
 
@@ -143,7 +146,8 @@ Este projeto está sob a licença do MIT. Veja o arquivo [LICENSE](LICENSE) para
 ---
 
 ## 🦸 Autor
-<img style="border-radius: 50%" src="https://instagram.fplu14-1.fna.fbcdn.net/v/t51.2885-19/s150x150/210580897_521661042378107_4696043254012376827_n.jpg?_nc_ht=instagram.fplu14-1.fna.fbcdn.net&_nc_ohc=CzFuGXZLNF4AX9QB2aK&tn=HVBsahGFRydsbaPl&edm=ABfd0MgBAAAA&ccb=7-4&oh=b664f35c449844f907d12d4eaf5043f6&oe=60EFCAF7&_nc_sid=7bff83" width="100px;"> <br />
+<img src="https://avatars.githubusercontent.com/u/49786548?v=4" width="64" style="border: 2px solid blue; border-radius: 50px" />
+<br />
 
 <a href="https://www.linkedin.com/in/anderson-fernandes-8b5a50135/">
 
